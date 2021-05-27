@@ -112,12 +112,31 @@ nav {
   text-align: center;
   margin-top: 2vh;
 }
+#work img {
+  height: auto;
+  max-width: 100%;
+}
 .projectLinks {
   margin-top: 5vh;
   height: auto;
   display: flex;
   justify-content: space-around;
   margin-bottom: 5vh;
+}
+.projectLinks a {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 360px;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 19.2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.8;
 }
 @media (max-width: 73.5em) {
   .projectLinks {
@@ -130,20 +149,7 @@ nav {
     margin-bottom: 5vh;
   }
 }
-.projectLinks a {
-  display: flex;
-  flex-direction: column;
-  height: 405px;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-  text-decoration: none;
-  color: #f0f0f0;
-  font-size: 19.2px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  text-align: center;
-  line-height: 2.8;
-}
+
 #contact {
   height: 90vh;
   background-color: #303841;
