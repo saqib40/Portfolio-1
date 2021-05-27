@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.DropDown1 {
+  height: 50px;
+  width: 90px;
+  background-color: #be3144;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Lexend Exa", sans-serif;
+}
+
+.DropDown1:hover {
+  color: #000;
+}
+
+.content {
+  list-style-type: none;
+  background-color: #be3144;
+  width: 100vw;
+  display: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 100%;
+  font-family: "Lexend Exa", sans-serif;
+  box-sizing: border-box;
+}
+
+li a:hover {
+  color: #000;
+}
+
+.show {
+  display: block;
+}
+
+@media (min-width: 31em) {
+  .DropDown1 {
+    display: none;
+  }
+
+  .content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #be3144;
+    display: flex;
+  }
+
+  .gandu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  li a:hover {
+    color: #000;
+  }
+}
+nav {
+  background-color: #be3144;
+}
+#about {
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about h1 {
+  font-size: 55.68px;
+  text-align: center;
+  color: #f0f0f0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+#about p {
+  text-align: center;
+  font-size: 27.84px;
+  font-family: "Poppins", sans-serif;
+  color: #be3144;
+  font-weight: 200;
+}
+#work {
+  height: auto;
+  background-color: #45567d;
+  border: 0.001px solid #45567d;
+}
+#work h2 {
+  color: #f0f0f0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 38.976px;
+  text-align: center;
+  margin-top: 2vh;
+}
+.projectLinks {
+  margin-top: 5vh;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+}
+@media (max-width: 73.5em) {
+  .projectLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .projectLinks a {
+    margin-bottom: 5vh;
+  }
+}
+.projectLinks a {
+  display: flex;
+  flex-direction: column;
+  height: 405px;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 19.2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.8;
+}
+#contact {
+  height: 90vh;
+  background-color: #303841;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#contact h2 {
+  font-size: 55.68px;
+  text-align: center;
+  color: #f0f0f0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+#contact p {
+  text-align: center;
+  font-size: 16.704px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  color: #f0f0f0;
+  font-weight: 200;
+}
+.workLinks {
+  margin-top: 12vh;
+  text-align: center;
+}
+
+.workLinks a {
+  font-size: 22.272px;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+}
